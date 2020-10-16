@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block title %} Home {% endblock %}
+
+{% load static %}
+
+
+{% block body %}
+
+    <div>
+    <h1>Home</h1>
+    <h2>DB table records: {{ db_rec.count }}</h2>
+    <img width="200" src="{% static 'image.jpg' %}">
+    </div>
+
+
+{% endblock %} 
